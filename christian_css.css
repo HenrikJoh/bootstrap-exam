@@ -1,0 +1,20 @@
+#services .row .panel .panel-body img
+{
+    max-height:250px;
+    display:block;
+    margin:auto;
+}
+#services .panel-body
+{
+    padding:0;
+}
+#services a
+{
+    text-decoration: none;
+}
+#services .panel-body
+{
+    overflow: auto;
+    height: 300px;
+}
+#seperate_services
