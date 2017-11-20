@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="christian_css.css">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <title>Lazy Life Home</title>
 </head>
 <body>
 <nav class="navbar navbar-default">
-    <div class="container-fluid row">
+    <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header col-sm-2">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
@@ -31,7 +32,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <div class="col-xs-10">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+                    <li class=""><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
 
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
@@ -51,7 +52,7 @@
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="blog.html">Blog page</a></li>
+                    <li class="active"><a href="blog.html">Blog page</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
@@ -65,19 +66,39 @@
         <li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
         <li class="active">Blog</li>
     </ol>
+    <!--Start of blog post-->
     <div class="well">
-    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, sequi?</h2>
-    <img src="images/done_bathroom.jpg" alt="" class="img-responsive"
-         style="float: left; margin-bottom: 10px; margin-right: 10px;">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, assumenda beatae cupiditate deleniti
-        dolore ducimus earum est eum expedita hic, inventore ipsam iure natus nemo neque non odit pariatur
-        perferendis perspiciatis placeat praesentium quas repellat reprehenderit, saepe sed ut vero. Asperiores
-        consequatur cupiditate dolor error exercitationem, modi molestias nulla repellendus voluptas. Enim est id
-        ipsa magni minus qui sapiente, sint ut. Adipisci aspernatur assumenda beatae cupiditate dolores eligendi
-        enim explicabo fuga id ipsum, minima molestias nam nobis officiis placeat possimus quaerat sapiente velit.
-        Accusantium at atque commodi culpa, debitis delectus dicta ducimus fugiat nam nobis omnis quasi quod
-        suscipit vero.</p>
-        <button class=" btn btn-default" data-target="#commentCollapse1" data-toggle="collapse">Show comments
+        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, sequi?</h2>
+        <img src="images/cleaners-london.jpg" alt="" class="img-responsive"
+             style="float: left; margin-bottom: 10px; margin-right: 10px; max-height: 200px;">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, assumenda beatae cupiditate deleniti
+            dolore ducimus earum est eum expedita hic, inventore ipsam iure natus nemo neque non odit pariatur
+            perferendis perspiciatis placeat praesentium quas repellat reprehenderit, saepe sed ut vero. Asperiores
+            consequatur cupiditate dolor error exercitationem, modi molestias nulla repellendus voluptas. Enim est id
+            ipsa magni minus qui sapiente, sint ut. Adipisci aspernatur assumenda beatae cupiditate dolores eligendi
+            enim explicabo fuga id ipsum, minima molestias nam nobis officiis placeat possimus quaerat sapiente velit.
+            Accusantium at atque commodi culpa, debitis delectus dicta ducimus fugiat nam nobis omnis quasi quod
+            suscipit vero.</p>
+        <!--Start of comments-->
+        <div class="clearfix"></div>
+        <form class=" col-sm-12 col-md-6">
+            <div class="form-group">
+                <h3>Write a comment</h3>
+                <label for="fullName">Full name</label><input type="text" class="form-control" id="fullName"
+                                                              required>
+            </div>
+            <div class="form-group">
+                <label for="message">Your comment</label>
+                <textarea class="form-control" id="message" required></textarea>
+            </div>
+
+
+            <button class="btn btn-primary" type="submit">Post</button>
+
+        </form>
+
+        <div class="clearfix"></div>
+        <button class=" btn btn-default marginTop" data-target="#commentCollapse1" data-toggle="collapse">Show comments
             <span class="badge">3</span></button>
         <div class="media-body">
             <ul class="media-list collapse" id="commentCollapse1">
@@ -107,7 +128,139 @@
                 </li>
             </ul>
         </div>
+        <!--End of comments-->
     </div>
+    <!--End of blog post-->
+    <!--Start of blog post-->
+    <div class="well">
+        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, sequi?</h2>
+        <img src="images/done_bathroom.jpg" alt="" class="img-responsive"
+             style="float: left; margin-bottom: 10px; margin-right: 10px;max-height: 200px;">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A animi, aperiam aut consequatur cumque debitis
+            dolore ea eligendi eum exercitationem facilis fugiat hic id incidunt, laboriosam libero magnam nemo
+            perferendis praesentium ratione rem sapiente sed sequi tempora, voluptatibus? Blanditiis dolorem eaque enim
+            est eveniet ipsam, labore mollitia pariatur perferendis porro quaerat quam recusandae totam unde
+            voluptatibus! Amet aspernatur, fugiat ipsum quis rerum tenetur ullam. Accusantium adipisci, alias aliquam at
+            aut consectetur distinctio doloremque dolorum, earum harum illo ipsa labore magnam minima perspiciatis porro
+            quae tempore vitae? Amet debitis eius est, et expedita, laborum non, numquam perspiciatis quibusdam
+            recusandae repellat repellendus?.</p>
+        <!--Start of comments-->
+        <div class="clearfix"></div>
+        <form class=" col-sm-12 col-md-6">
+            <div class="form-group">
+                <h3>Write a comment</h3>
+                <label for="fullName2">Full name</label><input type="text" class="form-control" id="fullName2"
+                                                              required>
+            </div>
+            <div class="form-group">
+                <label for="message2">Your comment</label>
+                <textarea class="form-control" id="message2" required></textarea>
+            </div>
+
+
+            <button class="btn btn-primary" type="submit">Post</button>
+
+        </form>
+
+        <div class="clearfix"></div>
+        <button class=" btn btn-default marginTop" data-target="#commentCollapse2" data-toggle="collapse">Show comments
+            <span class="badge">3</span></button>
+        <div class="media-body">
+            <ul class="media-list collapse" id="commentCollapse2">
+                <li class="media well">
+                    <br>
+                    <div class="media-body">
+                        <h4 class="media-heading">John something <i class="small" style="margin-left: 5px;"> posted
+                            sometime</i></h4>
+                        Hey, good job!
+                    </div>
+                </li>
+                <li class="media well">
+                    <br>
+                    <div class="media-body">
+                        <h4 class="media-heading">John something <i class="small" style="margin-left: 5px;"> posted
+                            sometime</i></h4>
+                        Hey, good job!
+                    </div>
+                </li>
+                <li class="media well">
+                    <br>
+                    <div class="media-body">
+                        <h4 class="media-heading">John something <i class="small" style="margin-left: 5px;"> posted
+                            sometime</i></h4>
+                        Hey, good job!
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!--End of comments-->
+    </div>
+    <!--End of blog post-->
+    <!--Start of blog post-->
+    <div class="well">
+        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, sequi?</h2>
+        <img src="images/electrician_working.jpg" alt="" class="img-responsive"
+             style="float: left; margin-bottom: 10px; margin-right: 10px; max-height: 200px;">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda distinctio magnam quasi
+            reiciendis, rem sed. Aperiam aspernatur, aut cum deleniti doloremque ducimus eius enim eos harum id incidunt
+            ipsa iste laboriosam magnam maxime necessitatibus neque nesciunt nihil pariatur quae qui quis quos
+            recusandae, rem repudiandae saepe sint vitae! Aliquid aspernatur consequatur, delectus deserunt expedita
+            fugiat id illum ipsam iure mollitia natus neque nisi numquam odio officiis perferendis possimus, quibusdam
+            quidem reprehenderit saepe similique sit sunt ullam ut veritatis vero voluptates. Adipisci dolore earum
+            ipsam ipsum labore libero magnam maiores, neque odio officiis pariatur placeat voluptates? Accusamus
+            corporis ea qui.</p>
+        <!--Start of comments-->
+        <div class="clearfix"></div>
+        <form class=" col-sm-12 col-md-6">
+            <div class="form-group">
+                <h3>Write a comment</h3>
+                <label for="fullName3">Full name</label><input type="text" class="form-control" id="fullName3"
+                                                              required>
+            </div>
+            <div class="form-group">
+                <label for="message3">Your comment</label>
+                <textarea class="form-control" id="message3" required></textarea>
+            </div>
+
+
+            <button class="btn btn-primary" type="submit">Post</button>
+
+        </form>
+
+        <div class="clearfix"></div>
+        <button class=" btn btn-default marginTop" data-target="#commentCollapse3" data-toggle="collapse">Show comments
+            <span class="badge">3</span></button>
+        <div class="media-body">
+            <ul class="media-list collapse" id="commentCollapse3">
+                <li class="media well">
+                    <br>
+                    <div class="media-body">
+                        <h4 class="media-heading">John something <i class="small" style="margin-left: 5px;"> posted
+                            sometime</i></h4>
+                        Hey, good job!
+                    </div>
+                </li>
+                <li class="media well">
+                    <br>
+                    <div class="media-body">
+                        <h4 class="media-heading">John something <i class="small" style="margin-left: 5px;"> posted
+                            sometime</i></h4>
+                        Hey, good job!
+                    </div>
+                </li>
+                <li class="media well">
+                    <br>
+                    <div class="media-body">
+                        <h4 class="media-heading">John something <i class="small" style="margin-left: 5px;"> posted
+                            sometime</i></h4>
+                        Hey, good job!
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!--End of comments-->
+    </div>
+    <!--End of blog post-->
 </main>
 
 
