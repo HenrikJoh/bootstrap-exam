@@ -35,7 +35,7 @@ textarea {
     width:100%;
     background-color: darkgrey;
     text-align: center;
-    height:100px;
+
 
  }
 
@@ -43,8 +43,12 @@ textarea {
     margin-top:20px;
 }
 .footer p {
-    padding: 10px;
+    margin:0;
     font-size:1.1em;
+}
+
+.footer p:last-of-type {
+    margin-bottom:10px;
 }
 
 
