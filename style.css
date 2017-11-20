@@ -1,6 +1,5 @@
 .navbar {
     font-size: 1.3em;
-
 }
 
 .navbar-brand {
@@ -15,6 +14,40 @@
 .navbar > .container-fluid {
     background-color: white;
 }
+
+textarea {
+    resize: none;
+}
+
+#about .txts {
+    margin-bottom: 30px;
+}
+
+#about h1 {
+    margin-bottom:20px;
+}
+
+#about p {
+    font-size: 1.3em;
+}
+
+.footer {
+    width:100%;
+    background-color: darkgrey;
+    text-align: center;
+    height:100px;
+
+ }
+
+.footer h4 {
+    margin-top:20px;
+}
+.footer p {
+    padding: 10px;
+    font-size:1.1em;
+}
+
+
 @media (max-width:767px) {
     .navbar-brand
     {
