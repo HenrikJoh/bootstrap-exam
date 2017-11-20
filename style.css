@@ -8,6 +8,10 @@ body {
     padding-bottom: 50px;
 }
 
+p {
+    font-size: 1.2em;
+}
+
 .navbar {
     font-size: 1.3em;
 }
@@ -36,10 +40,6 @@ textarea {
 
 #about h1 {
     margin-bottom:20px;
-}
-
- p {
-    font-size: 1.2em;
 }
 
 .footer {
