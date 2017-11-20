@@ -105,10 +105,23 @@
                         <textarea class="form-control" id="message" required></textarea>
                     </div>
 
-                    <button class="btn btn-primary">Submit</button>
-
                 </form>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#confirm">Submit</button>
+                <div class="modal fade" id="confirm">
+                    <div class="modal-dialog">
 
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                <h2>Are you sure this is the right information?</h2>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Confirm</button>
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
