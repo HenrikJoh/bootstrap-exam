@@ -13,8 +13,17 @@
     text-decoration: none;
 }
 #services .panel-body
+ {
+     overflow: auto;
+     min-height: 300px;
+ }
+
+.well
 {
-    overflow: auto;
-    height: 300px;
+    background-color: white;
+    background-image: none;
 }
-#seperate_services
+.marginTop
+{
+    margin-top: 10px;
+}
