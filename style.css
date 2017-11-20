@@ -2,8 +2,9 @@
     font-size: 1.3em;
 }
 
+
 .navbar-brand {
-    font-size:2em;
+    font-size:1.80em;
     color: black !important;
 }
 
@@ -31,13 +32,11 @@ textarea {
     font-size: 1.3em;
 }
 
-
 .footer {
     width:100%;
-    background-color: darkgrey;
+    background-color: lightgrey;
+    box-shadow: inset hoff voff blur color;
     text-align: center;
-
-
  }
 
 .footer h4 {
@@ -52,7 +51,14 @@ textarea {
     margin-bottom:10px;
 }
 
+.footer li {
+    font-size: 2em;
+    list-style-type: none;
+}
 
+.footer li:first-child {
+    margin-top:20px;
+}
 @media (max-width:767px) {
     .navbar-brand
     {
