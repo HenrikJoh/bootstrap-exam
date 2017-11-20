@@ -86,6 +86,9 @@ textarea {
     #about .txts p {
         margin-top:20px;
     }
+    body {
+        padding-bottom:200px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -102,6 +105,8 @@ textarea {
      {
          width:100%;
      }
+
+
 }
 .well
 {
