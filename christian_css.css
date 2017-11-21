@@ -22,7 +22,6 @@
 {
     background-color: white;
     background-image: none;
-    border-radius: 0;
 }
 .marginTop
 {
@@ -31,7 +30,6 @@
 #seperate_services p {
     margin-top: 5px;
 }
-
 @media screen and (max-width: 767px) {
     #seperate_services p {
         margin-top: 20px;

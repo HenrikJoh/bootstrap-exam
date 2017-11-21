@@ -101,6 +101,12 @@ textarea {
 {
     background-color: white; !important;
 }
+.breadcrumb
+{
+    font-size: 1.1em;
+    background-color: white;
+}
+
 
 .marginTop {
     margin-bottom: 10px;
@@ -125,8 +131,8 @@ textarea {
 
     .navbar-brand,
     .navbar-nav > li > a {
-        line-height: 100px;
-        height: 100px;
+        line-height: 85px;
+        height: 65px;
         padding-top: 0;
         text-align: center;
     }
@@ -134,7 +140,6 @@ textarea {
      {
          width:100%;
      }
-
-
 }
+
 
