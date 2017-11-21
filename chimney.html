@@ -105,24 +105,26 @@
                         <label for="message">Details/other info about the task</label>
                         <textarea class="form-control" id="message" required></textarea>
                     </div>
+                    <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#confirm">Submit</a>
+                    <!--Modal Start-->
+                    <div class="modal fade" id="confirm">
+                        <div class="modal-dialog">
 
-                </form>
-                <button class="btn btn-primary" data-toggle="modal" data-target="#confirm">Submit</button>
-                <div class="modal fade" id="confirm">
-                    <div class="modal-dialog">
-
-                        <div class="modal-content">
-                            <div class="modal-body">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                                <h2>Are you sure this is the right information?</h2>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal">Confirm</button>
-                                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <h2>Are you sure this is the right information?</h2>
+                                    <button type="submit" class="btn btn-primary">Confirm</button>
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                    <!--Modal end-->
+                </form>
+
             </div>
         </div>
     </div>
