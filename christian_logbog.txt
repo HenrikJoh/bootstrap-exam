@@ -14,3 +14,9 @@ Gjorde all services sidan och de individuella services sidorna och blog sidan.
 
 -------------------------------------------------------
 
+Datum 20 november
+
+Jobbade i skolan
+
+Fixade comments på blog page och modal på individuella services sidorna
+
