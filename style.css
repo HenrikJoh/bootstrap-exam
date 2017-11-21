@@ -96,6 +96,15 @@ textarea {
 .footer li:first-child {
     margin-top:20px;
 }
+
+.well
+{
+    background-color: white; !important;
+}
+
+.marginTop {
+    margin-bottom: 10px;
+}
 @media (max-width:767px) {
     .navbar-brand
     {
@@ -127,7 +136,4 @@ textarea {
 
 
 }
-.well
-{
-    background-color: white; !important;
-}
+
