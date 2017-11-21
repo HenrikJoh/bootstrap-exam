@@ -109,6 +109,11 @@ textarea {
 .marginTop {
     margin-bottom: 10px;
 }
+ul.nav.navbar-nav .dropdown.open .dropdown-toggle{
+    background-image: none;
+    background-color: white;
+    box-shadow: none;
+}
 
 @media (max-width:767px) {
     .navbar-brand
@@ -125,7 +130,7 @@ textarea {
 }
 
 @media screen and (min-width: 768px) {
-
+    
 
     .navbar-brand,
     .navbar-nav > li > a {
