@@ -114,6 +114,24 @@ ul.nav.navbar-nav .dropdown.open .dropdown-toggle{
     background-color: white;
     box-shadow: none;
 }
+.carousel-caption
+{
+    top:0;
+    color: black;
+    text-shadow: 0.5px 0 0 #ffffff, 0 -1px 0 #ffffff, 0 1px 0 #ffffff, -1px 0 0 #ffffff;
+}
+.nav-tabs
+{
+    /*border:none;*/
+    float:right;
+    width:50%;
+    margin-bottom: 20px;
+}
+.nav-tabs li
+{
+    width:50%;
+}
+
 
 @media (max-width:767px) {
     .navbar-brand
@@ -126,6 +144,12 @@ ul.nav.navbar-nav .dropdown.open .dropdown-toggle{
     }
     body {
         padding-bottom:200px;
+    }
+    .nav-tabs
+    {
+        float: none;
+        width:100%;
+        margin-bottom: 20px;
     }
 }
 
@@ -143,6 +167,7 @@ ul.nav.navbar-nav .dropdown.open .dropdown-toggle{
      {
          width:100%;
      }
+
 }
 
 
