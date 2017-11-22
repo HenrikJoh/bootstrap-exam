@@ -26,5 +26,13 @@ Datum 21 november
 
 Jobbade i skolan
 
-Spridit order om de heliga wells!
+Spridit order om de heliga wells! Och stylade navbaren och hade problem att felsöka min kod ibland
+
+------------------------------------------------------------
+
+Datum 22 November
+
+Jobbade hemma
+
+Sista minutes bug fixes och tog bort lorem från h taggar
 
