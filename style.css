@@ -174,4 +174,8 @@ ul.nav.navbar-nav .dropdown.open .dropdown-toggle{
 
 }
 
-
+@media (max-width: 992px) {
+    .container {
+        width: 100%;
+    }
+}
